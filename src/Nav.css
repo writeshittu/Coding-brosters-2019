@@ -1,0 +1,15 @@
+.navbar{
+    background-color:inherit;
+   overflow: hidden;
+   margin-bottom : 0px;
+   text-align:justify
+   
+}
+.navbar a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+
+
+}
