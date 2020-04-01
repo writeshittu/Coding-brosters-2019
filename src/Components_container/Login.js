@@ -3,7 +3,10 @@ import React from "react";
 const Login =()=>{
     return(
         <div>
-            INSERT CONTENTS !!!!!!!!!!!!!!!!!
+            <hr/>
+            <div>
+                INSERT CONTENTS !!!!!!!!!!!!!!!!!
+            </div>
         </div>
     )
 }
