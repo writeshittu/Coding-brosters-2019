@@ -18,7 +18,7 @@ let ControlledCarousel = () =>{
             <Carousel.Caption>
             <h3  className="f1 pa1 ">Wanna Have Fun?</h3>
             <p  className="f4 pa1">why not check out popular recreation centres near you</p>
-            <SearchField/>
+            <SearchField id="1"/>
             </Carousel.Caption>
 
         </Carousel.Item>
@@ -32,7 +32,7 @@ let ControlledCarousel = () =>{
             <Carousel.Caption>
             <h3  className="f1 pa1">Wanna have Fun?</h3>
             <p  className="f4 pa1 ">why not check out popular recreation centres near you</p>
-            <SearchField/>
+            <SearchField  />
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -45,7 +45,7 @@ let ControlledCarousel = () =>{
             <Carousel.Caption>
             <h3  className="f1 pa1">Wanna have Fun?</h3>
             <p  className="f4 pa1">why not check out popular recreation centres near you.</p>
-            <SearchField/>
+            <SearchField id="3"/>
             </Carousel.Caption>
         </Carousel.Item>
     </Carousel>
