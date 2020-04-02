@@ -1,25 +1,9 @@
-*{
-    box-sizing: border-box;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
- nav ul li {
-    float: left;
-   
-  }
-  nav ul li a {
-    text-decoration: none;
+
+  .dim {
     color: #02163E;
     font-family: Garamond;
     font-size: 20px;
     line-height: 22px;
     letter-spacing: 0.05em;
-    display: block;
-    padding: 20px;
-    margin: 0px;
+   
   }

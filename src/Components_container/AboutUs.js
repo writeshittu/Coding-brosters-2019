@@ -3,7 +3,6 @@ import React from "react";
 const AboutUs =()=>{
     return(
         <div>
-            <hr/>
             <div className="container">
                 <h1  className="tc navy">About Us</h1>
                     INSERT CONTENTS !!!!!!!!!!!!!!!!!

@@ -3,8 +3,7 @@ import React from "react";
 const SpecialOffer =()=>{
     return(
         <div>
-            <hr/>
-            <div className="container">
+           <div className="container">
                 <h1 className="tc navy">Special Offers</h1>
                 <div  className="row shadow-1">
                     <div className="col-8 ph3 mv5">
