@@ -33,7 +33,7 @@ class Footer extends React.Component{
             <div className="row mt5 tc">
                 <div className="col-sm-3">
                     <h5>Hot Links</h5>
-                    <p> <a className="pointer white no-underline dim" href="/aboutus">About</a></p>
+                    <p> <a className="pointer white no-underline" href="/aboutus">About</a></p>
                     <p className="pointer link">Our Vision</p>
                     <p className="pointer link">Your bookings</p>
                 </div>
