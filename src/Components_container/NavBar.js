@@ -1,22 +1,27 @@
-import React from 'react';
-import  './NavBar.css';
+import React from "react";
+import './NavBar.css'
+import { Nav, Navbar} from "react-bootstrap";
 
 
-function App() {
+
+ const NavBar=() => {
   return (
-    <nav className="nav">
-        <img  className="ml5" style={{width:"200px"}} src="https://res.cloudinary.com/undercover/image/upload/v1584886586/RecreationalApp/HomeLogo_cewu0h.png" alt="logo" />
-        <ul  className="AppLink ml-auto dn-m">
-            <li className="pointer link dim">Special Offers </li>
-            <li className="pointer link dim">Gallery</li>
-            <li className="pointer link dim">Login </li>
-           <li className="pointer link dim"> About Us </li>
-        </ul>
-       
-       
+    <Navbar collapseOnSelect expand="lg" className="bb b--light-silver">
+      <Navbar.Brand href="/">
+      <img  style={{width:"200px"}} src="https://res.cloudinary.com/undercover/image/upload/v1584886586/RecreationalApp/HomeLogo_cewu0h.png" alt="logo" />
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="ml-auto pointer">
+          <Nav.Link className="dim text-info" href="/specialoffer">Special Offers</Nav.Link>
+          <Nav.Link className="dim text-info" href="/gallery">Gallery</Nav.Link>
+          <Nav.Link className="dim text-info" href="/login">Login</Nav.Link>
+          <Nav.Link className="dim text-info" href="/aboutus">About Us</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
       
-    </nav>
+    </Navbar>
   );
 }
 
-export default App;
+export default NavBar;
