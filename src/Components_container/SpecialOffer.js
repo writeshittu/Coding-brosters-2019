@@ -18,7 +18,6 @@ const SpecialOffer =()=>{
                         </p>
                     </div>
                     <img  className="col-3 offset-1" alt="Zuma Restaurant" src="https://res.cloudinary.com/undercover/image/upload/v1585698916/RecreationalApp/cities%20views/Zuma_Restaurant_xfxrxj.svg" />
-                    
                 </div>
             
             <div  className="row shadow-1 mt6">
@@ -33,7 +32,7 @@ const SpecialOffer =()=>{
                         commodi qui at et quis ut! Accusamus obcaecati doloremque similique, placeat culpa tempore eum.
                     </p>
                 </div>
-                <img  className="col-3 offset-1" alt="Omu resort" src="https://res.cloudinary.com/undercover/image/upload/v1585698959/RecreationalApp/cities%20views/Omu_resort_swsmhp.svg" />
+              <div className="col-3 ph3 mv5 offset-1" ><img alt="Omu resort" src="https://res.cloudinary.com/undercover/image/upload/v1585698959/RecreationalApp/cities%20views/Omu_resort_swsmhp.svg" /> </div>
             </div>
         </div>
             <div className="tc ma3"><button className="pa2">See more v</button></div>
