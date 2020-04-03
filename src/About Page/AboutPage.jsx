@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import AboutUs from './AboutUs'
-import NavBar from '../components/Navbar/Navbar';
 import rectangle from '../utils/img/Rectangle 3.png'
 
 

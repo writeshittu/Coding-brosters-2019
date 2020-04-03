@@ -3,7 +3,6 @@ import Form from './Form'
 import RememberMe from './RememberMe';
 import Button from './Button';
 import DontHaveAccount from './DontHaveAccount';
-import google from '../../utils/img/google.png'
 
 
 

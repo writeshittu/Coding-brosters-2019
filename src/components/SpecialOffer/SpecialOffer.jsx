@@ -1,5 +1,4 @@
-import React from 'react'
-import NavBar from '../Navbar/Navbar'
+import React from 'react';
 import Special from './Special';
 import zuma from '../../utils/img/zuma.png';
 import omu from '../../utils/img/omu1.png';

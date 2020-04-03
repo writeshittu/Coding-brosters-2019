@@ -7,11 +7,11 @@ const Find = ({title, pics}) => {
         <Fragment>
              <div className="text-center m-6 text-5xl mt-10 font-medium">{title} </div>
              <div>
-                 
+                
              </div>
            <div className="flex justify-around m-12 md:flex justify-between ">
                 <div className="mr-10 md:flex-shrink-0">
-                    <img  className="w-full" src={pics} alt="alpha beach"/>
+                    <img  className="w-full transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110" src={pics} alt="alpha beach"/>
                     <button className="m-8">More Pictures</button>
                     <button className="m-8">Reviews</button>
             </div>

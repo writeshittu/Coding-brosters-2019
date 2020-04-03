@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../Navbar/Navbar';
 import Gallery from './Gallery';
 import gallery from '../../utils/img/gallery.jpeg';
 import gallery3 from '../../utils/img/gallery3.jpeg'
