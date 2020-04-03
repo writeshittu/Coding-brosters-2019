@@ -38,8 +38,7 @@ let Recommended = () =>{
             <div className="tc" ><button className=" pa2 br3 blue" > Explore more</button></div>
             <hr className=" bb bw1 f--black-9 ma5"/>
             <div style ={backgroundImageStyle} className="row ">
-                <div className="col-2"></div>
-                <div className="ma5 h5 pa2 o-80 bg-navy col-sm-8 f2" ><p className="tc white pa3">"Over 300 places of fun why sit at home and get bored?"</p></div>
+            <div className="ma5 h5 o-80 bg-navy col f3 tc white pa5-l">"Over 300 places of fun why sit at home and get bored?"</div>
             </div>
         </div>
     );
