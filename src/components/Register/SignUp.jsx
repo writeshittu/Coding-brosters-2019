@@ -17,7 +17,7 @@ const SignUp = () => {
 
                          <Button  label={'Create Account'} />
 
-                            <p className="text-center m-4">or</p>
+                            <p className="text-center mt-2">or</p>
            
            
                         <Button label={'Sign Up with Google'}/>
