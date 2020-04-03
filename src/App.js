@@ -1,33 +1,35 @@
-import React from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './Components_container/NavBar';
-import Home from './Components_container/Home';
-import Gallery from './Components_container/Gallery';
-import SpecialOffer from './Components_container/SpecialOffer';
-import Login from './Components_container/Login';
-import Footer from './Components_container/FooterComponents/Footer';
-import AboutUs from './Components_container/AboutUs';
+import React, { Fragment } from 'react';
+import LandingPage from './components/landingPage/LandingPage';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import FindPage from './components/Findpage/FindPage';
+import SpecialOffer from './components/SpecialOffer/SpecialOffer';
+import GalleryPage from './components/Gallery Page/GalleryPage'
+import AboutPage from './About Page/AboutPage';
+import LoginPage from './components/login/LoginPage';
+import Home from './Components_container/Home'
+import NavBar from '../src/Components_container/NavBar'
+import Footer from './Components_container/FooterComponents/Footer'
 
-class App extends React.Component {
 
-  render(){
-    return(
-      <React.Fragment>
-         <NavBar/>
-        <Router>
-          <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route path="/gallery" component={Gallery}/>
-            <Route path="/specialoffer" component={SpecialOffer}/>
-            <Route path="/login" component={Login}/>
-            <Route path="/aboutus" component={AboutUs}/>
-          </Switch>
-        </Router>
-        <Footer/>
-      </React.Fragment>
-    )
-  }
+
+const App = () => {
+    return ( 
+        <Fragment>
+                <NavBar />
+            <Router>
+                <Switch>
+                <Route path="/" exact component={Home} />
+                <Route path='/find' exact component={FindPage} />
+                <Route path='/special-offer' exact component={SpecialOffer} />
+                <Route path='/gallery' exact component={GalleryPage} />
+                <Route path='/about-us' exact component={AboutPage} />
+                <Route path='/login' exact component={LoginPage}  />
+                </Switch>
+            </Router>
+                <Footer />
+        </Fragment>
+
+     );
 }
-
+ 
 export default App;

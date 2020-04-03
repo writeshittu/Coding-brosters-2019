@@ -14,7 +14,7 @@ const AboutUs =()=>{
                     quis ut! Accusamus obcaecati doloremque similique, placeat culpa tempore eum.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quam modi quisquam eligendi non quia 
                     quaerat iusto perferendis earum quasi corrupti ullam sequi perspiciatis totam optio commodi qui at et 
-                    quis ut! Accusamus obcaecati doloremque similique, placeat culpa tempore eum.
+                    quis ut! Acusamus obcaecati doloremque similique, placeat culpa tempore eum.
                     </p>
             </div>
         </div>

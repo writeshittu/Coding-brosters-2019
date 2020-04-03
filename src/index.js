@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from'./App'
-import 'tachyons'
-import * as serviceWorker from './serviceWorker';
+import './assets/main.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/main.css';
 
-ReactDOM.render(<App/>,document.getElementById('root'));
+import App from './App';
 
-serviceWorker.unregister();
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
