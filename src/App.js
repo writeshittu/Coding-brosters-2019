@@ -9,6 +9,7 @@ import LoginPage from './components/login/LoginPage';
 import Home from './Components_container/Home'
 import NavBar from '../src/Components_container/NavBar'
 import Footer from './Components_container/FooterComponents/Footer'
+import SignUpPage from './components/Register/SignUpPage';
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
                 <Route path='/gallery' exact component={GalleryPage} />
                 <Route path='/about-us' exact component={AboutPage} />
                 <Route path='/login' exact component={LoginPage}  />
+                <Route path='/register' exact component={SignUpPage} />
                 </Switch>
             </Router>
                 <Footer />

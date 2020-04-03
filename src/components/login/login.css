@@ -9,7 +9,7 @@
 .custom-css{
     background: url('../../utils/img/palms2.svg');
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -21,7 +21,7 @@
 .box{
     
     padding: 0 4rem;
-    width: 45%;
+    width: auto;
     margin-top: 20px;
     
 }

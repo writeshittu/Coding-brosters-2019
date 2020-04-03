@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import NavBar from '../Navbar/Navbar'
+import React, { Component } from 'react';
 import Login from './Login'
 
 const LoginPage = () => {

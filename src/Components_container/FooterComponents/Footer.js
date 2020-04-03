@@ -25,13 +25,14 @@ class Footer extends React.Component{
         <div className ="container-fluid white bg-navy -mt-6">
             <Newsletter onChangeInput={this.onChangeInput} onButtonFind={this.onButtonFind}/>
             
-                <div className="text-center">
-                <h3 className ="justify-center">Download the App</h3>
-                <p className ="justify-center">It's even better on the Phone</p>
-                </div>
-                <div className="flex justify-center">
-                <img className ="justify-between mr-2" src="https://res.cloudinary.com/undercover/image/upload/v1585046929/RecreationalApp/cities%20views/App-StoreAndroid_vzqitt.svg" alt="Apple logo" />
-                <img className ="justify-between" src="https://res.cloudinary.com/undercover/image/upload/v1585046929/RecreationalApp/cities%20views/App-StoreAndroid_vzqitt.svg" alt="Apple logo" />
+                <div className="text-center ">
+                <h3>Download the App</h3>
+                <p>It's even better on the Phone</p>
+                
+                <div className="sm:flex-col md:flex-col m-10 flex justify-center ">
+                <img className ="justify-between lg:mr-2 sm:justify-center md:justify-center sm:mr-0 md:mr-0 mb-2" src="https://res.cloudinary.com/undercover/image/upload/v1585046929/RecreationalApp/cities%20views/App-StoreAndroid_vzqitt.svg" alt="Apple logo" />
+                <img className ="justify-between sm:justify-center md:justify-center sm:mr-0 md:mr-0" src="https://res.cloudinary.com/undercover/image/upload/v1585046929/RecreationalApp/cities%20views/App-StoreAndroid_vzqitt.svg" alt="Apple logo" />
+            </div>
             </div>
             <div className="row mt5 tc">
                 <div className="col-sm-3">
