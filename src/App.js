@@ -4,11 +4,10 @@ import FindPage from './components/Findpage/FindPage';
 import SpecialOffer from './components/SpecialOffer/SpecialOffer';
 import GalleryPage from './components/Gallery Page/GalleryPage'
 import AboutPage from './About Page/AboutPage';
-import Home from './Components_container/Home'
 import NavBar from '../src/Components_container/NavBar'
 import Footer from './Components_container/FooterComponents/Footer'
 
-
+const  Home = lazy(()=> import('./Components_container/Home'));
 const  LoginPage = lazy(()=> import('./components/login/LoginPage'));
 const SignUpPage = lazy(()=> import('./components/Register/SignUpPage'));
 

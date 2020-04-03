@@ -7,7 +7,7 @@ const AboutUs = ({pics}) => {
             
            <div className="flex justify-around m-20  md:flex justify-between">
                 <div className="mr-10 md:flex-shrink-0">
-                    <img  className="w-full" src={pics} alt="alpha beach"/>
+                    <img  className="w-full transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110" src={pics} alt="alpha beach"/>
                    
                 </div>
             <div className="mt-4 md:mt-0 md:ml-6">
