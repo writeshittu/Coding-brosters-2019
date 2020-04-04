@@ -9,8 +9,8 @@ const Find = ({title, pics}) => {
              <div>
                 
              </div>
-           <div className="flex justify-around m-12 md:flex justify-between ">
-                <div className="mr-10 md:flex-shrink-0">
+           <div className="md:flex justify-around m-12 md:flex justify-between ">
+                <div className="md:mr-10 md:flex-shrink-0 sm:block">
                     <img  className="w-full transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110" src={pics} alt="alpha beach"/>
                     <button className="m-8">More Pictures</button>
                     <button className="m-8">Reviews</button>
