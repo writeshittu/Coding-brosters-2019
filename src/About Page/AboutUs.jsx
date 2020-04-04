@@ -5,8 +5,8 @@ const AboutUs = ({pics}) => {
     return ( 
         <Fragment>
             
-           <div className="container md:flex justify-around md:m-20 justify-between">
-                <div className="md:mr-10 md:flex-shrink-0">
+           <div className="container xl:flex justify-around md:m-20 justify-between">
+                <div className="xl:mr-10 md:flex-shrink-0">
                     <img  className="md:w-full transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110" src={pics} alt="alpha beach"/>
                    
                 </div>

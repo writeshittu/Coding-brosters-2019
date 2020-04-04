@@ -7,8 +7,8 @@ const Gallery = ({ pics}) => {
     return ( 
         <div>
            <div className="container md:flex justify-around m-20 justify-between">
-                <div className="mr-10 md:flex-shrink-0">
-                    <img  className="md:w-full transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110" src={pics} alt="alpha beach"/>
+                <div className="md:mr-10 md:flex-shrink-0">
+                    <img  className="md:w-full sm:object-cover transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110" src={pics} alt="alpha beach"/>
                    
             </div>
             <div className="mt-4 md:mt-0 md:ml-6">

@@ -8,7 +8,7 @@ const SpecialOffer = () => {
     return ( 
         <div>
             <div className="mt-10">
-            <h2 className="text-center text-5xl  font-normal">Special Offers</h2>
+            <h2 className="text-center lg:text-5xl sm:text-sm font-normal">Special Offers</h2>
             </div>
             <Special pics={zuma} alt="image of Zuma Rock" title={'Zuma Rock'} />
             <Special pics={omu} alt="image of omu resort" title={'Omu Resort'} />

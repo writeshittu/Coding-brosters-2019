@@ -7,7 +7,7 @@ const AboutPage = () => {
     return ( 
         <Fragment>
             <div className="mt-10">
-            <h2 className="text-center text-5xl font-normal">About Us</h2>
+            <h2 className="text-center sm:text-sm lg:text-5xl font-normal">About Us</h2>
             </div>
             <AboutUs pics={rectangle} />
         </Fragment>
