@@ -24,7 +24,7 @@ class Footer extends React.Component{
      return(
         <div className ="container-fluid white bg-navy">
             <Newsletter onChangeInput={this.onChangeInput} onButtonFind={this.onButtonFind}/>
-            <div className="tc">
+            <div className="md:flex">
                 <h3>Download the App</h3>
                 <p>It's even better on the Phone</p>
                 <img className ="ml4" src="https://res.cloudinary.com/undercover/image/upload/v1585046929/RecreationalApp/cities%20views/App-StoreAndroid_vzqitt.svg" alt="Apple logo" />

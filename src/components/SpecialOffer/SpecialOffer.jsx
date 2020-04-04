@@ -7,8 +7,8 @@ import omu from '../../utils/img/omu1.png';
 const SpecialOffer = () => {
     return ( 
         <div>
-            <div className="mt-10 -mb-32">
-            <h2 className="text-center text-5xl font-normal">Special Offers</h2>
+            <div className="mt-10">
+            <h2 className="text-center text-5xl  font-normal">Special Offers</h2>
             </div>
             <Special pics={zuma} alt="image of Zuma Rock" title={'Zuma Rock'} />
             <Special pics={omu} alt="image of omu resort" title={'Omu Resort'} />
