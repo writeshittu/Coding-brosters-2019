@@ -30,7 +30,7 @@ const Find = ({title, pics}) => {
                  atque vero accusantium voluptate ullam optio dolore eum, quo omnis, delectus molestiae voluptatibus.</p>
             </div>          
             </div>
-            <div className=" flex justify-center border-b border-black mb-20 p-20">
+            <div className="md:flex justify-center border-b border-black md:mb-20 md:p-20">
                 <button className="bg-green-300 hover:bg-green-700 text-white font-semibold hover:text-white py-1 px-4 border border-white hover:border-transparent rounded  mr-32" >Make a Reservation</button>
                 <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mr-32">Directions</button>
                 <button className="bg-green-300 hover:bg-green-700 text-white font-semibold hover:text-white py-1 px-4 border border-white hover:border-transparent rounded">Book a ride</button>

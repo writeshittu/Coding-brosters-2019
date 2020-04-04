@@ -1,6 +1,6 @@
 import React from 'react';
 import Special from './Special';
-import zuma from '../../utils/img/zuma.png';
+
 import omu from '../../utils/img/omu1.png';
 import eat from '../../utils/img/eat.png'
 

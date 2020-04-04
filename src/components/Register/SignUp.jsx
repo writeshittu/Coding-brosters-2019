@@ -5,9 +5,9 @@ import Button from '../login/Button'
 
 const SignUp = () => {
     return ( 
-        <div className="bg-auto sm:bg-cover custom-css">
-           <div className="w-6/12 bg-white shadow-md rounded  px-8 py-6 ">
-                <form className='ml-10 mr-10'>
+        <div className="sm:bg-auto md:bg-cover bg-center custom-css">
+           <div className="md:w-6/12 sm:w-auto bg-white shadow-md rounded sm:-mt-4 px-8 py-6 ">
+                <form className='md:mx-10'>
                     <h2 className="text-center mb-6">Create your account</h2>
                         <Form label={'Fisrtname'} type={'text'} placeholder={''} />
                         <Form label={'Lastname'} type={'text'} placeholder={''} />
