@@ -44,7 +44,7 @@
     "autoprefixer": "^9.7.5",
     "gh-pages": "^2.2.0",
     "postcss-cli": "^7.1.0",
-    "tachyons": "^4.10.0",
+    "tachyons": "4.10.0",
     "tailwindcss": "^1.2.0"
   }
 }

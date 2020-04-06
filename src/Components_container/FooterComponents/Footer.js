@@ -24,11 +24,13 @@ class Footer extends React.Component{
      return(
         <div className ="container-fluid white bg-navy">
             <Newsletter onChangeInput={this.onChangeInput} onButtonFind={this.onButtonFind}/>
-            <div className="md:flex">
+            <div className="tc">
                 <h3>Download the App</h3>
                 <p>It's even better on the Phone</p>
+                <div className="md:flex">
                 <img className ="ml4" src="https://res.cloudinary.com/undercover/image/upload/v1585046929/RecreationalApp/cities%20views/App-StoreAndroid_vzqitt.svg" alt="Apple logo" />
                 <img className ="ml4" src="https://res.cloudinary.com/undercover/image/upload/v1585046929/RecreationalApp/cities%20views/App-StoreAndroid_vzqitt.svg" alt="Apple logo" />
+                </div>
             </div>
             <div className="row mt5 tc">
                 <div className="col-sm-3">
