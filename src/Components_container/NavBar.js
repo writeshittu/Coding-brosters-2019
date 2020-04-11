@@ -13,10 +13,10 @@ import { Nav, Navbar} from "react-bootstrap";
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto pointer">
-          <Nav.Link className="dim text-info" href="/specialoffer">Special Offers</Nav.Link>
+          <Nav.Link className="dim text-info" href="/special-offer">Special Offers</Nav.Link>
           <Nav.Link className="dim text-info" href="/gallery">Gallery</Nav.Link>
           <Nav.Link className="dim text-info" href="/login">Login</Nav.Link>
-          <Nav.Link className="dim text-info" href="/aboutus">About Us</Nav.Link>
+          <Nav.Link className="dim text-info" href="/about-us">About Us</Nav.Link>
         </Nav>
       </Navbar.Collapse>
       
