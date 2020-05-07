@@ -1,47 +1,52 @@
-import React from'react';
+import React from 'react';
+import { cardListData,recommendedPlaces } from "./cardlist-data";
 import 'tachyons'
-import Recommended from './Recommended';
+ 
 
-let Cardlists = () =>{
+let Cardlists = () => {
     let styles = {
-                fontFamily : "Garamond",
-                
-            }
-    return (<div className='container-fluid mt-5'>
-                <h3 className="tc mt-5 ">Most Visited Places</h3>
-                <div style = {styles} className="row ma3 ">
-                    <div  className= "col-sm-4 tc">
-                        <img className="grow bw-2 pointer" src ='https://res.cloudinary.com/undercover/image/upload/v1584917558/RecreationalApp/cities%20views/palms.lag_qhzlyp.svg' alt="view" />
-                        <p className="pa2 ma2 ">Whispering Palms, Lagos</p>
-                    </div>
-                    <div className="col-sm-4 tc">
-                        <img className= "grow bw-2 pointer" src ='https://res.cloudinary.com/undercover/image/upload/v1584918077/RecreationalApp/cities%20views/bj_frg52h.svg' alt="view" />
-                        <p className=" pa2 ma2">ShopRite, Abuja</p>
-                    </div>
-                    <div className="col-sm-4 tc">
-                        <img className= "grow bw-2 pointer" src ='https://res.cloudinary.com/undercover/image/upload/v1584917638/RecreationalApp/cities%20views/Rectangle_8PP_yyapbr.svg' alt="view" />
-                        <p className= "pa2 ma2"> Peace Park, Port Hacourt</p>
-                    </div>
-                </div>
-                <div style = {styles} className="row ma3">
-                    <div className="col-sm-4 tc" >
-                        <img className="grow pointer" src ='https://res.cloudinary.com/undercover/image/upload/v1584917569/RecreationalApp/cities%20views/Rectangle_10Ib_1_ulwybz.svg' alt="view" />
-                        <p className=" pa2 ma2">Agodi Gardens, Ibadan</p>
-                    </div>
-                    <div className="col-sm-4 tc bw-2">
-                        <img className= "grow pointer" src ='https://res.cloudinary.com/undercover/image/upload/v1584917531/RecreationalApp/cities%20views/Rectangle_12Omu_uh8thr.svg' alt="view" />
-                        <p className= "pa2 ma2">Omu Resort, Lagos</p>
-                    </div>
-                    <div className= "col-sm-4 tc bw-2">
-                        <img className= "grow pointer" src ='https://res.cloudinary.com/undercover/image/upload/v1584917525/RecreationalApp/cities%20views/abj_cmpubm.svg' alt="view" />
-                        <p className= "ma2">Dunes Express Cafe, Abuja</p>
-                    </div>
-                   
-            </div>
-            <hr className=" bb bw1 b--black-10" />
-           <Recommended/>
+        fontFamily: "Garamond",}
+        let backgroundImageStyle = {
+        backgroundImage: "url(https://res.cloudinary.com/undercover/image/upload/v1585046950/RecreationalApp/cities%20views/bckgrd-image_euhxn9.svg)",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center"
+    }
 
-       </div>
+    return (<div className='container-fluid mt-5'>
+        <h3 className="tc mt-5 ">Most Visited Places</h3>
+
+        <div style={styles} className="row ma3" >
+
+            {
+                cardListData.map((data) =>
+                    <div className="col-sm-4 tc" key={data.id}>
+                        <img className="bw-2 grow pointer" src={data.imageSrc} alt="resortparkimage" width="350px" />
+                        <p className="pa2 ">{data.locationName}</p>
+                    </div>)
+            }
+        </div>
+        <hr className="bb bw1 b--black-10" />
+        <div>
+        <h2 className="tc ma3 pa2" >Recommended</h2>
+            {
+                recommendedPlaces.map((data)=>
+                    <div className="row ma2 pa2 tc">
+                        <div className= "col-sm-5 pointer grow">
+                            <img src = {data.imageSrc} alt="olumorock" />
+                        </div>
+                        <p className= "col-sm-6 ma2 pa2">{data.description}</p>
+                    </div>
+                )
+            }
+        </div>
+        <div className="tc" ><button className=" pa2 br3 blue" > Explore more</button></div>
+
+        <hr className="bb bw1 b--black-10" />
+        
+        <div style={backgroundImageStyle} className="row ">
+                <div className="ma5 h5 o-80 bg-navy col f3 tc white pa5-l">"Over 300 places of fun why sit at home and get bored?"</div>
+            </div>
+    </div>
     );
 }
 

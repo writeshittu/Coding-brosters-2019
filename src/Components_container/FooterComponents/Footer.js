@@ -3,27 +3,12 @@ import Newsletter from "./Newsletter"
 
 
 class Footer extends React.Component{
-    constructor (){
-        super();
-        this.state ={
-            input: '' 
-        }
-    this.onChangeInput = this.onChangeInput.bind(this);
-    this.onButtonFind = this.onButtonFind.bind(this);
-    }
-    onChangeInput = (event)=>{
-        this.setState ({input : event.target.value})
-    }
-    onButtonFind = (event)=>{
-        this.setState();
-        event.preventDefault();
-       
-    }
+  
 
  render(){
      return(
         <div className ="container-fluid white bg-navy">
-            <Newsletter onChangeInput={this.onChangeInput} onButtonFind={this.onButtonFind}/>
+            <Newsletter/>
             <div className="tc">
                 <h3>Download the App</h3>
                 <p>It's even better on the Phone</p>

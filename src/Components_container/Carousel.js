@@ -11,7 +11,7 @@ let ControlledCarousel = () =>{
        
         <Carousel.Item>
             <img
-            className="d-block w-100"
+            className="w-100"
             src="https://res.cloudinary.com/undercover/image/upload/v1584886568/RecreationalApp/Carousel1_wixuu7.png"
             alt="First slide" width="900" height="350"
             />
@@ -24,7 +24,7 @@ let ControlledCarousel = () =>{
         </Carousel.Item>
         <Carousel.Item>
             <img
-            className="d-block w-100"
+            className="w-100"
             src="https://res.cloudinary.com/undercover/image/upload/v1584886575/RecreationalApp/Carousel2_tiazgv.png"
             alt="Third slide" width="900" height="350"
             />
@@ -37,7 +37,7 @@ let ControlledCarousel = () =>{
         </Carousel.Item>
         <Carousel.Item>
             <img style = {{backgroundRepeat:'no-repeat' }}
-            className="d-block w-100"
+            className="w-100"
             src="https://res.cloudinary.com/undercover/image/upload/v1584886581/RecreationalApp/Carousel3_qez93u.png"
             alt="Third slide" width="900" height="350"
             />

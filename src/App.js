@@ -2,7 +2,9 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './Components_container/NavBar';
-import Home from './Components_container/Home';
+import ControlledCarousel from './Components_container/Carousel';
+import Cardlists from './Components_container/Cardlist';
+// import Home from './Components_container/Home';
 import Gallery from './Components_container/Gallery';
 import SpecialOffer from './Components_container/SpecialOffer';
 import Login from './Components_container/Login';
@@ -14,17 +16,21 @@ class App extends React.Component {
   render(){
     return(
       <React.Fragment>
-         <NavBar/>
-        <Router>
+        <NavBar />
+          <Router>
           <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route path="/gallery" component={Gallery}/>
-            <Route path="/specialoffer" component={SpecialOffer}/>
-            <Route path="/login" component={Login}/>
-            <Route path="/aboutus" component={AboutUs}/>
+            <div exact path="/">
+              <ControlledCarousel />
+              <Cardlists />
+            </div>
+            {/* <Route  component={Home}/> */}
+            <Route path="/gallery" component={Gallery} />
+            <Route path="/specialoffer" component={SpecialOffer} />
+            <Route path="/login" component={Login} />
+            <Route path="/aboutus" component={AboutUs} />
           </Switch>
         </Router>
-        <Footer/>
+        <Footer />
       </React.Fragment>
     )
   }
