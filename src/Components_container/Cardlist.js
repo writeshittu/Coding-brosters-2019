@@ -30,7 +30,7 @@ let Cardlists = () => {
         <h2 className="tc ma3 pa2" >Recommended</h2>
             {
                 recommendedPlaces.map((data)=>
-                    <div className="row ma2 pa2 tc">
+                    <div className="row ma2 pa2 tc" key={data.id}>
                         <div className= "col-sm-5 pointer grow">
                             <img src = {data.imageSrc} alt="olumorock" />
                         </div>
@@ -44,7 +44,7 @@ let Cardlists = () => {
         <hr className="bb bw1 b--black-10" />
         
         <div style={backgroundImageStyle} className="row ">
-                <div className="ma5 h5 o-80 bg-navy col f3 tc white pa5-l">"Over 300 places of fun why sit at home and get bored?"</div>
+                <div className="ma5 h5 o-80 bg-navy col f3 tc white pa5-l">"Over 300 places of fun <br/> why sit at home and get bored?"</div>
             </div>
     </div>
     );

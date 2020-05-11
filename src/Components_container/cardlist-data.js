@@ -42,8 +42,22 @@ export const recommendedPlaces = [
         id: 2,
         locationName: "Nike Art Gallery",
         imageSrc: "https://res.cloudinary.com/undercover/image/upload/v1585046959/RecreationalApp/cities%20views/Nikeart_gallery_pxksz8.svg",
-        description:  `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quam modi quisquam eligendi non quia quaerat iusto perferendis 
+        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quam modi quisquam eligendi non quia quaerat iusto perferendis 
                         earum quasi corrupti ullam sequi perspiciatis totam optio commodi qui at et quis ut! Accusamus obcaecati doloremque similique, placeat culpa tempore eum.
-                       eligendi non quia quaerat iusto perferendis earum quasi corrupti ullam sequi perspiciatis totam optio commodi qui at et quis ut! Accusamus obcaecati doloremque similique, placeat` 
+                       eligendi non quia quaerat iusto perferendis earum quasi corrupti ullam sequi perspiciatis totam optio commodi qui at et quis ut! Accusamus obcaecati doloremque similique, placeat`
     },
-]
+];
+export const searchLocation = {
+    "city": ["City", "Abuja", "Ibadan", "Lagos", "Port Hacourt"],
+    "area": [
+             "Area", "badagry", "Ibeju Lekki", "Ikeja", "Ikoyi", "Lagos Island", "Victorial Islans"
+            ],
+    "activities" : [
+        "Types of Activities","Arcade", "Archery","Arts and culture", "Bowlings","Casino","Clubs", "Horse Riding","Kayakings",
+        "Kart Racing","Museum","Parks","Spa and Wellness", "Restaurants", "Shopping","Swimming","Virtual Reality","Fiat",
+    ]
+
+
+}
+
+

@@ -1,11 +1,6 @@
 import React from'react';
 
 
-// let style = {
-//     marginRight :"25px",
-//     borderRadius :"5px"
-//  }
-// style= {style}
 class SearchField extends React.Component {
     constructor (){
         super();
@@ -27,14 +22,14 @@ class SearchField extends React.Component {
 return(
     <div>
             <form onSubmit={this.onButtonFind}>
-            <select className="pa1-l w-15-ns mr-lg-2 input-reset ba" value={this.state.value} onChange={this.handleChange}>
+            <select className="pa1 w-15-ns mr-lg-2 input-reset br2" value={this.state.value} onChange={this.handleChange}>
                 <option value="City">City</option>
                 <option value="Abuja">Abuja</option>
                 <option value="Ibadan">Ibadan</option>
                 <option value="Lagos">Lagos</option>
                 <option value="Port Hacourt">Port Hacourt</option>
             </select>
-            <select className="pa1-l w-15-ns mr-lg-2 input-reset ba" value={this.state.value} onChange={this.handleChange}>
+            <select className="pa1 w-15-ns mr-lg-2 input-reset br2" value={this.state.value} onChange={this.handleChange}>
                 <option value="Area">Area</option>
                 <option value="badagry">Badagry</option>
                 <option value="Ibeju Lekki">Ibeju Lekki</option>
@@ -43,7 +38,7 @@ return(
                 <option value="Lagos Island">Lagos Island</option>
                 <option value="Victorial Islans">Victorial Island</option>
             </select>
-            <select className="pa1-l w-15-ns mr-lg-2 input-reset ba" value={this.state.value} onChange={this.handleChange}>
+            <select className="pa1 w-15-ns mr-lg-2 input-reset br2" value={this.state.value} onChange={this.handleChange}>
                 <option value="Types of Activities">Types of Activities</option>
                 <option value="Arcade">Arcade</option>
                 <option value="Archery">Archery</option>
@@ -63,7 +58,7 @@ return(
                 <option value="Virtual Reality">Virtual Reality</option>
                 <option value="Fiat">Zoo</option>
             </select>
-            <input className="pa1-l w-15 mr-lg-1 input-reset ba" type = "button" name="find" value="Find"/>
+            <input className="pa1 w-15 mr-lg-1 input-reset br2" type = "button" name="find" value="Find"/>
         </form>
     </div>
 );
