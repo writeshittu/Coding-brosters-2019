@@ -4,7 +4,7 @@ import ControlledCarousel from './Components_container/Carousel';
 import Cardlists from './Components_container/Cardlist';
 import FindPage from './components/Findpage/FindPage';
 import SpecialOffer from './Components_container/SpecialOffer';
-import GalleryPage from './components/Gallery Page/GalleryPage';
+import Gallery from './Components_container/Gallery';
 import AboutPage from './About Page/AboutPage';
 import NavBar from './Components_container/NavBar'
 import Footer from './Components_container/FooterComponents/Footer'
@@ -27,7 +27,7 @@ const App = () => {
                 </div>
                 <Route path='/find' component={FindPage} />
                 <Route path='/special-offer' component={SpecialOffer} />
-                <Route path='/gallery'  component={GalleryPage} />
+                <Route path='/gallery'  component={Gallery} />
                 <Route path='/about-us'  component={AboutPage} />
                 <Route path='/login'  component={LoginPage}  />
                 <Route path='/register'  component={SignUpPage} />
