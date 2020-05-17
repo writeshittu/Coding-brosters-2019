@@ -3,6 +3,7 @@ import Form from './Form'
 import RememberMe from './RememberMe';
 import Button from './Button';
 import DontHaveAccount from './DontHaveAccount';
+import '../../assets/main.css';
 
 
 

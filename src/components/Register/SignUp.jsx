@@ -1,6 +1,8 @@
 import React from 'react'
 import Form from '../login/Form';
-import Button from '../login/Button'
+import Button from '../login/Button';
+// import '../../assets/main.css';
+
 
 
 const SignUp = () => {

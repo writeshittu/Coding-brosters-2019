@@ -25,12 +25,12 @@ const App = () => {
                   <ControlledCarousel />
                   <Cardlists />
                 </div>
-                <Route path='/find' exact component={FindPage} />
-                <Route path='/special-offer' exact component={SpecialOffer} />
-                <Route path='/gallery' exact component={GalleryPage} />
-                <Route path='/about-us' exact component={AboutPage} />
-                <Route path='/login' exact component={LoginPage}  />
-                <Route path='/register' exact component={SignUpPage} />
+                <Route path='/find' component={FindPage} />
+                <Route path='/special-offer' component={SpecialOffer} />
+                <Route path='/gallery'  component={GalleryPage} />
+                <Route path='/about-us'  component={AboutPage} />
+                <Route path='/login'  component={LoginPage}  />
+                <Route path='/register'  component={SignUpPage} />
                 </Switch>
             </Router>
                 <Footer />
