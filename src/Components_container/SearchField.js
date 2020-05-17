@@ -1,12 +1,11 @@
-import React from'react';
-
+import React from "react";
 
 class SearchField extends React.Component {
-    constructor (){
-        super();
-        this.state ={
-            input: '' 
-        }
+  constructor() {
+    super();
+    this.state = {
+      input: "",
+    };
     this.onChangeInput = this.onChangeInput.bind(this);
     this.onButtonFind = this.onButtonFind.bind(this);
     }
@@ -65,4 +64,3 @@ return(
   }
 }
 export default SearchField;
-
